@@ -6,4 +6,5 @@
 #--platform=linux/arm64 nginx:1.26.1
 #--platform=linux/arm64 bitnami/prometheus:2.27.1
 #efrecon/s3fs
-alpine:3.21.3
+#alpine:3.21.3
+bitnami/alertmanager:0.16.2
