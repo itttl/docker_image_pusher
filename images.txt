@@ -7,4 +7,6 @@
 #--platform=linux/arm64 bitnami/prometheus:2.27.1
 #efrecon/s3fs
 #alpine:3.21.3
-bitnami/alertmanager:0.16.2
+#bitnami/alertmanager:0.16.2
+alpine:3.22.1
+mysql:8.0.43
