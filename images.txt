@@ -12,4 +12,6 @@
 #mysql:8.0.43
 #--platform=linux/arm64 calico/typha:v3.16.10
 #datajuicer/data-juicer:v1.4.5
---platform=linux/arm64 nvidia/cuda:12.6.3-cudnn-devel-ubuntu24.04
+#--platform=linux/arm64 nvidia/cuda:12.6.3-cudnn-devel-ubuntu24.04
+moby/buildkit:buildx-stable-1
+--platform=linux/arm64 moby/buildkit:buildx-stable-1
