@@ -10,4 +10,5 @@
 #bitnami/alertmanager:0.16.2
 #alpine:3.22.1
 #mysql:8.0.43
---platform=linux/arm64 calico/typha:v3.16.10
+#--platform=linux/arm64 calico/typha:v3.16.10
+--platform=linux/arm64 datajuicer/data-juicer:v1.4.5
