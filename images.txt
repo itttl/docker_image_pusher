@@ -16,10 +16,19 @@
 #moby/buildkit:buildx-stable-1
 #--platform=linux/arm64 moby/buildkit:buildx-stable-1
 #--platform=linux/arm64 ubuntu:24.04
-pingcap/tidb-operator:v2.0.0
-pingcap/tidb-operator-prestop-checker:v2.0.0
-pingcap/tidb-backup-manager:v2.0.0
+#pingcap/tidb-operator:v2.0.0
+#pingcap/tidb-operator-prestop-checker:v2.0.0
+#pingcap/tidb-backup-manager:v2.0.0
+#--platform=linux/arm64 pingcap/tidb-operator:v2.0.0
+#--platform=linux/arm64 pingcap/tidb-operator-prestop-checker:v2.0.0
+#--platform=linux/arm64 pingcap/tidb-backup-manager:v2.0.0
+pingcap/tidb-operator:v1.6.5
+pingcap/tidb-backup-manager:v1.6.5
+pingcap/advanced-statefulset:v0.7.0
+bitnami/kubectl:latest
 
---platform=linux/arm64 pingcap/tidb-operator:v2.0.0
---platform=linux/arm64 pingcap/tidb-operator-prestop-checker:v2.0.0
---platform=linux/arm64 pingcap/tidb-backup-manager:v2.0.0
+--platform=linux/arm64 pingcap/tidb-operator:v1.6.5
+--platform=linux/arm64 pingcap/tidb-backup-manager:v1.6.5
+--platform=linux/arm64 pingcap/advanced-statefulset:v0.7.0
+--platform=linux/arm64 bitnami/kubectl:latest
+--platform=linux/arm64 registry.k8s.io/kube-scheduler
