@@ -15,4 +15,8 @@
 #--platform=linux/arm64 nvidia/cuda:12.6.3-cudnn-devel-ubuntu24.04
 #moby/buildkit:buildx-stable-1
 #--platform=linux/arm64 moby/buildkit:buildx-stable-1
---platform=linux/arm64 ubuntu:24.04
+#--platform=linux/arm64 ubuntu:24.04
+pingcap/tidb-operator:v1.6.5
+pingcap/tidb-backup-manager:v1.6.5
+--platform=linux/arm64 pingcap/tidb-operator:v1.6.5
+--platform=linux/arm64 pingcap/tidb-backup-manager:v1.6.5
