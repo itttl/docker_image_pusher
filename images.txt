@@ -22,14 +22,17 @@
 #--platform=linux/arm64 pingcap/tidb-operator:v2.0.0
 #--platform=linux/arm64 pingcap/tidb-operator-prestop-checker:v2.0.0
 #--platform=linux/arm64 pingcap/tidb-backup-manager:v2.0.0
-pingcap/tidb-operator:v1.5.5
-pingcap/tidb-backup-manager:v1.5.5
-bitnami/kubectl:latest
-pingcap/advanced-statefulset:v0.7.0
-k8s.gcr.io/kube-scheduler:v1.19.16
 
---platform=linux/arm64 pingcap/tidb-operator:v1.5.5
---platform=linux/arm64 pingcap/tidb-backup-manager:v1.5.5
---platform=linux/arm64 pingcap/advanced-statefulset:v0.7.0
---platform=linux/arm64 bitnami/kubectl:latest
---platform=linux/arm64 registry.k8s.io/kube-scheduler:v1.19.16
+#pingcap/tidb-operator:v1.5.5
+#pingcap/tidb-backup-manager:v1.5.5
+#bitnami/kubectl:latest
+#pingcap/advanced-statefulset:v0.7.0
+#k8s.gcr.io/kube-scheduler:v1.19.16
+
+#--platform=linux/arm64 pingcap/tidb-operator:v1.5.5
+#--platform=linux/arm64 pingcap/tidb-backup-manager:v1.5.5
+#--platform=linux/arm64 pingcap/advanced-statefulset:v0.7.0
+#--platform=linux/arm64 bitnami/kubectl:latest
+#--platform=linux/arm64 registry.k8s.io/kube-scheduler:v1.19.16
+quay.io/external_storage/local-volume-provisioner:v2.3.4
+--platform=linux/arm64 quay.io/external_storage/local-volume-provisioner:v2.3.4
